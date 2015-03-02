@@ -30,12 +30,12 @@ Ads Supported  are:
 		manager.ShowChartboostInterstitial ();
 		
 # Public Methods
-		ShowBanner ()
-		HideBanner ();
-		ShowAdmobInterstitial ()
-		HideAdmobInterstitial ()
-		ShowChartboostInterstitial ()
-		HideChartboostInterstitial ()
-		ShowHeyzapInterstitial ()
-		HideHeyzapInterstitial ()
-		ShowLeadboltInterstial ()
+		ShowBanner ()	// Show Admob Banner
+		HideBanner ();	// Hide Admob Banner
+		ShowAdmobInterstitial ()	// Show Admob Interstitial
+		HideAdmobInterstitial ()	// Prevent Admob Interstitial from showing if its not already shown
+		ShowChartboostInterstitial ()	// Show Chartboost Interstitial
+		HideChartboostInterstitial ()	// Prevent Chartboost Interstitial from showing if its not already shown
+		ShowHeyzapInterstitial ()	// Show Heyzap Interstitial
+		HideHeyzapInterstitial ()	// Prevent Heyzap Interstitial from showing if its not already shown
+		ShowLeadboltInterstial ()	// Show Leadbolt Interstitial
