@@ -31,7 +31,7 @@ Ads Supported  are:
 		
 # Public Methods
 		ShowBanner ()	// Show Admob Banner
-		HideBanner ();	// Hide Admob Banner
+		HideBanner ()	// Hide Admob Banner
 		ShowAdmobInterstitial ()	// Show Admob Interstitial
 		HideAdmobInterstitial ()	// Prevent Admob Interstitial from showing if its not already shown
 		ShowChartboostInterstitial ()	// Show Chartboost Interstitial
@@ -39,3 +39,14 @@ Ads Supported  are:
 		ShowHeyzapInterstitial ()	// Show Heyzap Interstitial
 		HideHeyzapInterstitial ()	// Prevent Heyzap Interstitial from showing if its not already shown
 		ShowLeadboltInterstial ()	// Show Leadbolt Interstitial
+		ShowAutoAd()	// Show Random Ads
+
+# Public Properties
+	admobBannerID
+	admobIntertitialID
+	ChartboostAppID
+	ChartboostAppSignature
+	LeadboltInterstitialID
+	HeyzapPublisherID
+	showBannerAtTop	// Whether to show banner at top or bottom
+	updateFrequency	// AdsManager update frequency  per second. Default value is 2.
