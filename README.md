@@ -1,5 +1,5 @@
 # Unity-Android-Ads-Plugin
-Unity Android Ads Plugin Currently support Admob, Charboost, Heyzap and Leadbolt ads.
+Unity Android Ads Plugin Currently supports Admob, Charboost, Heyzap and Leadbolt ads.
 Ads Supported  are:
 * Admob Banner
 * Admob Interstitial
