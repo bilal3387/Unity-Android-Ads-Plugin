@@ -11,7 +11,8 @@ Ads Supported  are:
 1. Import the provided unity package to your unity3d project.
 2. Get an object of 'AdsManager' class.
 3. Assign the Ad IDs
-4. Call 'Initialize()' method on 'AdsManager' and you are good to go.
+4. Call 'Initialize()' method on 'AdsManager'.
+5. Show the ads.
 
 # Code sample for initialization
 		AdsManager manager = AdsManager.SharedObject();
@@ -30,23 +31,23 @@ Ads Supported  are:
 		manager.ShowChartboostInterstitial ();
 		
 # Public Methods
-		ShowBanner ()	// Show Admob Banner
-		HideBanner ()	// Hide Admob Banner
-		ShowAdmobInterstitial ()	// Show Admob Interstitial
-		HideAdmobInterstitial ()	// Prevent Admob Interstitial from showing if its not already shown
-		ShowChartboostInterstitial ()	// Show Chartboost Interstitial
-		HideChartboostInterstitial ()	// Prevent Chartboost Interstitial from showing if its not already shown
-		ShowHeyzapInterstitial ()	// Show Heyzap Interstitial
-		HideHeyzapInterstitial ()	// Prevent Heyzap Interstitial from showing if its not already shown
-		ShowLeadboltInterstial ()	// Show Leadbolt Interstitial
-		ShowAutoAd()	// Show Random Ads
+		ShowBanner()			// Show Admob Banner
+		HideBanner()			// Hide Admob Banner
+		ShowAdmobInterstitial()		// Show Admob Interstitial
+		HideAdmobInterstitial()		// Prevent Admob Interstitial from showing if its not already shown
+		ShowChartboostInterstitial()	// Show Chartboost Interstitial
+		HideChartboostInterstitial()	// Prevent Chartboost Interstitial from showing if its not already shown
+		ShowHeyzapInterstitial()	// Show Heyzap Interstitial
+		HideHeyzapInterstitial()	// Prevent Heyzap Interstitial from showing if its not already shown
+		ShowLeadboltInterstial()	// Show Leadbolt Interstitial
+		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
-	admobBannerID
-	admobIntertitialID
-	ChartboostAppID
-	ChartboostAppSignature
-	LeadboltInterstitialID
-	HeyzapPublisherID
-	showBannerAtTop	// Whether to show banner at top or bottom
-	updateFrequency	// AdsManager update frequency  per second. Default value is 2.
+		admobBannerID		// Admob Banner ID
+		admobIntertitialID	// Admob Interstitial ID
+		ChartboostAppID		// Chartboost AppID
+		ChartboostAppSignature	// Chartboost App Signature
+		LeadboltInterstitialID	// Leadbolt Interstitial ID
+		HeyzapPublisherID	// Heyzap Publisher ID
+		showBannerAtTop		// Whether to show banner at top or bottom
+		updateFrequency		// AdsManager update frequency  per second. Default value is 2.
