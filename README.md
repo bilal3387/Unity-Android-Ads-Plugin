@@ -41,9 +41,9 @@ Ads Supported  are:
 		HideChartboostInterstitial()	// Prevent Chartboost Interstitial from showing if its not already shown
 		ShowHeyzapInterstitial()	// Show Heyzap Interstitial
 		HideHeyzapInterstitial()	// Prevent Heyzap Interstitial from showing if its not already shown
-		ShowLeadboltInterstial()	// Show Leadbolt Interstitial
-		ShowAdBuddizInterstial()	// Show AdBuddiz Interstitial
-		HideAdBuddizInterstial()	// Prevent AdBuddiz Interstitial from showing if its not already shown
+		ShowLeadboltInterstitial()	// Show Leadbolt Interstitial
+		ShowAdBuddizInterstitial()	// Show AdBuddiz Interstitial
+		HideAdBuddizInterstitial()	// Prevent AdBuddiz Interstitial from showing if its not already shown
 		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
