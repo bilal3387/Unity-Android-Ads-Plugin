@@ -6,6 +6,7 @@ Ads Supported  are:
 * Leadbolt Interstitial
 * Chartboost Interstitial
 * Heyzap Interstitial
+* AdBuddiz Interstitial
 
 # Steps to integerate
 1. Import the provided unity package to your unity3d project.
@@ -23,6 +24,7 @@ Ads Supported  are:
 		manager.ChartboostAppSignature = "XXXXXXXXXXXXXXXX";
 		manager.LeadboltInterstitialID = "XXXXXXXXX";
 		manager.HeyzapPublisherID = "XXXXXXXXXXXXXXXX";
+		manager.AdBuddizPublisherKey = "XXXXXXXXXXXXXXXX";
 		manager.Initialize();
 		
 # Code sample for showing ads
@@ -40,6 +42,8 @@ Ads Supported  are:
 		ShowHeyzapInterstitial()	// Show Heyzap Interstitial
 		HideHeyzapInterstitial()	// Prevent Heyzap Interstitial from showing if its not already shown
 		ShowLeadboltInterstial()	// Show Leadbolt Interstitial
+		ShowAdBuddizInterstial()	// Show AdBuddiz Interstitial
+		HideAdBuddizInterstial()	// Prevent AdBuddiz Interstitial from showing if its not already shown
 		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
@@ -49,5 +53,6 @@ Ads Supported  are:
 		ChartboostAppSignature	// Chartboost App Signature
 		LeadboltInterstitialID	// Leadbolt Interstitial ID
 		HeyzapPublisherID	// Heyzap Publisher ID
+		AdBuddizPublisherKey	// AdBuddiz Publisher ID
 		showBannerAtTop		// Whether to show banner at top or bottom
 		updateFrequency		// AdsManager update frequency  per second. Default value is 2.
