@@ -17,14 +17,14 @@ Ads Supported  are:
 
 # Code sample for initialization
 		AdsManager manager = AdsManager.SharedObject();
-		manager.admobBannerID = "ca-app-pub-XXXXXXXXXX/XXXXX";
+		manager.admobBannerID = "";
 		manager.showBannerAtTop = false;
-		manager.admobIntertitialID = "ca-app-pub-XXXXXXXXXXXXX/XXXXXX";
-		manager.ChartboostAppID = "XXXXXXXXXXXXXXXXXXXXX";
-		manager.ChartboostAppSignature = "XXXXXXXXXXXXXXXX";
-		manager.LeadboltInterstitialID = "XXXXXXXXX";
-		manager.HeyzapPublisherID = "XXXXXXXXXXXXXXXX";
-		manager.AdBuddizPublisherKey = "XXXXXXXXXXXXXXXX";
+		manager.admobIntertitialID = "";
+		manager.ChartboostAppID = "";
+		manager.ChartboostAppSignature = "";
+		manager.LeadboltInterstitialID = "";
+		manager.HeyzapPublisherID = "";
+		manager.AdBuddizPublisherKey = "";
 		manager.Initialize();
 		
 # Code sample for showing ads
