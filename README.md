@@ -48,7 +48,7 @@ Ads Supported  are:
 		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
-                testMode                // Enable/Disable Test/Logger mode
+		testMode		// Enable/Disable Test/Logger mode
 		admobBannerID		// Admob Banner ID
 		admobIntertitialID	// Admob Interstitial ID
 		ChartboostAppID		// Chartboost AppID
