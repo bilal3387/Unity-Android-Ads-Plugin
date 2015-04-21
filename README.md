@@ -42,11 +42,13 @@ Ads Supported  are:
 		ShowHeyzapInterstitial()	// Show Heyzap Interstitial
 		HideHeyzapInterstitial()	// Prevent Heyzap Interstitial from showing if its not already shown
 		ShowLeadboltInterstitial()	// Show Leadbolt Interstitial
+		HideLeadboltInterstitial()	// Prevent Leadbolt Interstitial from showing if its not already shown
 		ShowAdBuddizInterstitial()	// Show AdBuddiz Interstitial
 		HideAdBuddizInterstitial()	// Prevent AdBuddiz Interstitial from showing if its not already shown
 		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
+                testMode                // Enable/Disable Test/Logger mode
 		admobBannerID		// Admob Banner ID
 		admobIntertitialID	// Admob Interstitial ID
 		ChartboostAppID		// Chartboost AppID
@@ -55,4 +57,3 @@ Ads Supported  are:
 		HeyzapPublisherID	// Heyzap Publisher ID
 		AdBuddizPublisherKey	// AdBuddiz Publisher ID
 		showBannerAtTop		// Whether to show banner at top or bottom
-		updateFrequency		// AdsManager update frequency  per second. Default value is 2.
