@@ -7,6 +7,7 @@ Ads Supported  are:
 * Chartboost Interstitial
 * Heyzap Interstitial
 * AdBuddiz Interstitial
+* StartApp Interstitial
 
 # Steps to integerate
 1. Import the provided unity package to your unity3d project.
@@ -45,6 +46,8 @@ Ads Supported  are:
 		HideLeadboltInterstitial()	// Prevent Leadbolt Interstitial from showing if its not already shown
 		ShowAdBuddizInterstitial()	// Show AdBuddiz Interstitial
 		HideAdBuddizInterstitial()	// Prevent AdBuddiz Interstitial from showing if its not already shown
+		ShowStartAppInterstitial()	// Show StartApp Interstitial
+		HideStartAppInterstitial()	// Prevent StartApp Interstitial from showing if its not already shown
 		ShowAutoAd()			// Show Random Ads
 
 # Public Properties
@@ -53,6 +56,8 @@ Ads Supported  are:
 		admobIntertitialID	// Admob Interstitial ID
 		ChartboostAppID		// Chartboost AppID
 		ChartboostAppSignature	// Chartboost App Signature
+		StartAppID		// StartApp AppID
+		StartAppDeveloperID	// StartApp DeveloperID
 		LeadboltInterstitialID	// Leadbolt Interstitial ID
 		HeyzapPublisherID	// Heyzap Publisher ID
 		AdBuddizPublisherKey	// AdBuddiz Publisher ID
